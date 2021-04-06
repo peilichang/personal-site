@@ -1,0 +1,375 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: "微軟正黑體";
+	background-image: url(../images/bg.png);
+}
+.header{
+	margin:0 auto;
+}
+.brand{
+	width: 50px;
+}
+.na-sm{
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	background-color: #d2b48c;
+}
+.na-sm .navbar-collapse, .na-sm .card-header{
+	background-color: #d2b48c;
+	border-color: #d2b48c;
+}
+.na-sm li{
+	width: 150px;
+	margin: 0 auto;
+}
+.na-sm li:hover{
+	border-bottom: 1px solid white;
+}
+.na-sm .dropdown-menu{
+	width: 400px;
+	margin-left: -125px;
+	margin-bottom: 10px;
+	border:none;
+}
+.nav-contact{
+	display: inline-block;
+	width: 30px;
+	border:none;
+	margin-right: 40px;
+}
+.na-sm .card{
+	margin-left: -125px;
+	width: 400px;
+}
+.na-sm .card-body{
+	margin-right: -40px;
+}
+.na-sm .card, .na-sm .card-body{
+	border-color: #d2b48c;
+}
+.na-sm .card a:link{
+	color: rgba(255,255,255,.5);
+	border-radius: 10px;
+}
+.na-sm .card-header a:hover{
+	color: #F5F5F5;
+}
+.na-lg{
+	position: fixed;
+	z-index: 999;
+	width: 1140px;
+	height: 50px;
+	background-color: #d2b48c;
+}
+.nav-left{
+	display: inline-block;
+	list-style-type: none;
+	width: 350px;
+	padding-left: 10px;
+}
+.na-lg li{
+	float: left;
+	width: 100px;
+	margin-left: 5px;
+	color: white;
+}
+.nav-right{
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+	width: 180px;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+.nav-right li{
+	width: 20px;
+	margin-left: 20px;
+}
+.nav-item a:link, .nav-item a:visited{
+	color: white;
+	text-decoration: none;
+}
+.nav-item a:hover, .nav-item a:active{
+	color: #8b4513;
+	text-decoration: none;
+}
+.dropdown-menu{
+	margin-bottom: -110px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.dropdown-menu a:link, .dropdown-menu a:visited{
+	color: #8b4513;
+}
+.dropdown-menu a:hover, .dropdown-menu a:active{
+	color: #8b4513;
+	background-color: #fdf5e6;
+}
+.na-lg img{
+	margin-right: 3px;
+	vertical-align: bottom;
+}
+.container{
+	height: 2350px;
+	padding-top: 30px;
+	background-color: white;
+}
+.logo{
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.carousel{
+	width: 70%;
+	margin: 0 auto;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+.about{
+	display: inline-block;
+	width: 85%;
+	margin-left: 7.5%;
+}
+.about .row{
+	margin-top: 60px;
+	padding-top: 60px; 
+	border-top: 1px solid #ededed;
+}
+.about-pic{
+	padding-top: 25px;
+}
+.pic-bg{
+	width: 85%;
+	margin: 20px;
+	border-radius: 10px;
+	background-color: #ffebcd;
+}
+.pic-bg img{
+	margin-left: 30px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.name{
+	padding: 20px;
+}
+.myinfo{
+	width: 280px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: -20px;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	background-color: #fa8072;
+}
+.name h5{
+	margin-top: 30px;
+	color: #212121;
+	font-weight: normal;
+}
+.name h6{
+	color: #212121;
+	font-weight: normal;
+}
+.ContactMe{
+	width: 100%;
+	margin: 0 auto;
+	border: none;
+	background-color: white;
+}
+.ContactMe .card-header{
+	font-size: 18px;
+	background-color: white;
+	border: none;
+}
+.ContactMe .card-body{
+	height: 60px;
+	border: 1px solid #ededed;
+	border-radius: 10px;
+}
+.incontact{
+	display: inline-block;
+	float: left;
+	width: 25%;
+	margin-top: -25px;
+	padding: 15px;
+}
+.ContactMe .card-header a:link, .ContactMe .card-header a:visited{
+	color: #8b4513;
+}
+.ContactMe .card-header a:hover, .ContactMe .card-header a:active{
+	color: #b22222;
+	font-weight: bold;
+}
+.ContactMe input[type=button]{
+	-webkit-appearance: none;
+	width: 14%;
+	height: auto;
+	border:none;
+	margin-top: -15px;
+	outline:none;
+	background-image: url(../images/smline.png);
+	background-position: 0px 0px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.lineQR{
+	float: right;
+}
+.intro{
+	padding: 50px;
+	font-size: 18px;
+	line-height: 70px;
+}
+.ability{
+	float: left;
+	display: inline-block;
+	width: 100%;
+}
+.language{
+	float: left;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.progress-bar{
+	background-color: #fa8072;
+}
+.gohome{
+	margin-top: 270px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.gohome a:link, .gohome a:visited{
+	color: #696969;
+}
+.gohome a:hover, .gohome a:active{
+	color: #d2b48c;
+	border-bottom: 2px solid #d2b48c;
+}
+.up{
+	position: fixed;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	right:0;
+	bottom:0;
+	margin-right: 50px;
+	margin-bottom: 80px;
+}
+.footer{
+	margin-left: 10.5%;
+	width: 79%;
+	height: 80px;
+	margin: 0 auto;
+	line-height: 80px;
+	font-size: 16px;
+	font-weight: 900;
+	color: white;
+	background-color: #d2b48c;
+}
+a:link, a:visited, a:active{
+	text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+	body{
+		overflow-x: hidden;
+	}
+	.header, .navbar, .footer{
+		width: 540px;
+	}
+	.container{
+		height: 2850px;
+	}
+	.na-lg{
+		display: none;
+	}
+	.logo{
+		width: 250px;
+		height: 130px;
+	}
+	.carousel{
+		width: 90%;
+	}
+	.pic-bg{
+		margin-left: 0px;
+	}
+	.incontact{
+		padding: 28px;
+		margin-top: -35px;
+	}
+	.ContactMe input[type=button]{
+		width: 9%;
+		margin-top: -7px;
+	}
+	.intro{
+		padding: 20px;
+		line-height: 50px;
+	}
+	.gohome{
+		margin-top: 480px;
+	}
+}
+@media only screen and (max-width: 576px){
+	body{
+		overflow-x: hidden;
+	}
+	.header, .navbar, .footer{
+		width: 100%;
+	}
+	.container{
+		height: 2800px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.header, .navbar, .footer{
+		width: 720px;
+	}
+	.na-sm{
+		display: none;
+	}
+	.about-pic{
+		padding-top: 80px;
+	}
+	.pic-bg{
+		width: 95%;
+		margin-left: 0px;
+	}
+	.incontact{
+		padding: 10px;
+		margin-top: -15px;
+	}
+	.ContactMe input[type=button]{
+		margin-top: -5px;
+	}
+}
+@media only screen and (min-width: 992px)and (max-width: 1200px){
+	.header, .navbar, .footer{
+		width: 960px;
+	}
+	.na-sm{
+		display: none;
+	}
+}
+@media only screen and (min-width: 1200px){
+	.header, .navbar, .footer{
+		width: 1140px;
+	}
+	.na-sm{
+		display: none;
+	}
+}
