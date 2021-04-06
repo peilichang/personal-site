@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles-1.css">
+	<title>Peili's Diary</title>
+</head>
+<body>
+	<div class="header">
+		<nav class="navbar navbar-expand-md navbar-dark na-sm">
+			<div class="brand">
+				<a class="navbar-brand" href="index.html"><img src="images/home.png" width="100%"></a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expend="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse text-center" id="navbarContent">
+				<ul class="navbar-nav">
+					<div class="dropdown-divider"></div>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categories
+						</a>
+						<div class="dropdown-menu text-center active" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="artical3.html">這就是TAIWAN! (1)</a>
+							<a class="dropdown-item" href="artical1.html">追趕跑跳異世界 (1)</a>
+							<a class="dropdown-item" href="artical2.html">吃吃喝喝旅遊趣 (1)</a>
+						</div>
+					</li>
+					<li id="accordion" class="nav-item"> 
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link navbar-dark" onclick="contact()" id="show" data-toggle="collapse" href="#collapseone">Contact Me</a>
+							</div>
+							<div id="collapseone" class="collapse" data-parent="#accordion">
+								<div class="card-body rounded">
+									<span class="nav-contact">
+										<a class="nav-link" href="https://www.instagram.com/s2307760/?hl=en" target="_blank"><img src="images/smig.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="https://www.facebook.com/profile.php?id=100005858530525&ref=bookmarks" target="_blank"><img src="images/smfb.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="https://twitter.com/Peili67883522" target="_blank"><img src="images/smtw.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="mailto:s2307760@gmail.com"><img src="images/smmail.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="tel:=886930072759"><img src="images/smphone.png" width="100%"></a>
+									</span>	
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+		<nav class="navbar na-lg">
+			<ul class="navbar-nav nav-left">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html"><img src="images/home.png" width="23%">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html"><img src="images/user.png" width="23%">About</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/cate.png" width="22%">Category<span class="caret"></span></a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="artical3.html">這就是TAIWAN!</a>
+						<a class="dropdown-item" href="artical1.html">追趕跑跳異世界</a>
+						<a class="dropdown-item" href="artical2.html">吃吃喝喝旅遊趣</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="navbar-nav nav-right">
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://www.instagram.com/s2307760/?hl=en" target="_blank"><img src="images/ig.png" width="100%"></a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://www.facebook.com/profile.php?id=100005858530525&ref=bookmarks" target="_blank"><img src="images/fb.png" width="100%"></a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://twitter.com/Peili67883522" target="_blank"><img src="images/tw.png" width="100%"></a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="mailto:s2307760@gmail.com"><img src="images/mail.png" width="100%"></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container con-2">
+		<div class="logo" id="logo">
+			<img src="images/logo2.png" width="100%">
+		</div>
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators"> 
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+				<li data-target="#demo" data-slide-to="3"></li>
+				<li data-target="#demo" data-slide-to="4"></li>
+				<li data-target="#demo" data-slide-to="5"></li>
+			</ul>
+
+			<div class="carousel-inner">
+    			<div class="carousel-item active">
+     				<img src="images/banner1.jpg">
+   				</div>
+   				<div class="carousel-item">
+    				<img src="images/banner.jpg">
+   				</div>
+   				<div class="carousel-item">
+      				<img src="images/banner2.jpg">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="images/banner3.jpg">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="images/banner4.jpg">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="images/banner5.jpg">
+    			</div>
+  			</div>
+
+  			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    			<span class="carousel-control-prev-icon"></span>
+  			</a>
+  			<a class="carousel-control-next" href="#demo" data-slide="next">
+    			<span class="carousel-control-next-icon"></span>
+  			</a>
+		</div>
+		<div class="left col-xl-3 col-lg-4 col-md-4">
+			<div class="card">
+				<div class="card-img-top">
+					<img src="images/infopic.jpg" width="100%">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">張培莉 Peili</h4>
+					<p class="card-text">HI~ I'm Peili~ 我喜歡出國旅遊，喜歡看美劇和拼拼圖！我希望能擁有知道大家在想什麼的超能力！
+					</p>
+					<input type="button" class="showcontact" id="showmore" onclick="showcontact()" value="＋聯絡我">
+					<div class="contact-info" id="contact-info" style='display:block'>
+						<hr>
+						<a href="tel:=886930072759" class="card-link phone"><img class="phonepic" src="images/phone3.png" width="13%"></a>
+						<input type="button" class="btn" onclick="popup()">
+						<img src='images/QR.jpg' id="line" class="QRpic" style='display:none' width="200px" hight="200px">
+					</div>
+				</div>
+			</div>
+			<div class="card newpost">
+				<div class="card-body">
+					<h5 class="card-title">New Update</h5>
+					<hr>
+					<div class="card-text">
+						<ul>
+							<li><span class="badge badge-pill badge-danger">New</span><a href="artical3.html">【台南】三天兩夜台南玩什麼！Gogoro租車、台南食記、文青小店。</a></li>
+							<li><span class="badge badge-pill badge-danger">New</span><a href="artical2.html">【韓國】大田X大邱，各式食物，馬鈴薯排骨湯、辣炒年糕，西門市場刀削麵和糖餅！</a></li>
+							<li><span class="badge badge-pill badge-danger">New</span><a href="artical1.html">【Los Angeles 】五天四夜之旅，迪士尼🎡、Paul Smith粉紅牆、Santa Monica🏖。</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card newpost">
+				<div class="card-body">
+					<h5 class="card-title">Categories</h5>
+					<hr>
+					<div class="card-text">
+						<ul class="category">
+							<li><a href="artical3.html"> 這就是TAIWAN! (1)</a></li>
+							<li><a href="artical1.html"> 追趕跑跳異世界 (1)</a></li>
+							<li><a href="artical2.html"> 吃吃喝喝旅遊趣 (1)</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr class="right-top">
+		<div class="right col-xl-9 col-lg-8 col-md-8 col-sm-12">
+			<div class="content">
+				<div class="date text-center">JAN 10 2020</div>
+				<div class="title text-center">
+					<p>
+						【韓國】大田X大邱，各式食物，馬鈴薯排骨湯、辣炒年糕，西門市場刀削麵和糖餅！
+					</p>
+					<img src="images/cover2-1.jpg" width="80%">
+				</div>
+				<div class="content-text">
+					<p>
+						這次趁著放假閒閒沒事的時候去韓國找之前認識的朋友玩，這兩個禮拜我已經準備好要吃很多很多韓國的食物了！因為這次朋友沒辦法來接機，所以我要自己從機場搭巴士到大田，真的超緊張的，我怕我一不注意就大迷路🤣，到了仁川機場後就照著指示跟記憶中的路線成功的買到了巴士票～～
+					</p>
+					<div class="img">
+						<img src="images/B1.jpg" width="50%">
+						<img src="images/B2.jpg" width="50%">
+					</div>
+					<p>
+						從仁川機場到大田的路程是3小時，但因為我到後面怕會睡過站，我就一直注意Google Map，看當時到底到哪了，結果提早了半小時就到大田了～Jei來接我後也已經晚上9點多了，所以回到他家稍微整理、梳洗後就睡覺了💤
+					</p>
+					<h4 class="day">📍大田</h4>
+					<p>
+						接下來的行程就是不斷的見朋友跟吃東西😚 隔天第一個行程就是跟之前認識的韓國朋友June一起吃炸雞！吃完後他跟我說他要去便利商店領他中樂透的錢，我馬上也跟著買了一張樂透，結果長的根本就和台灣的一模一樣！都是有分可以電腦選號或是自己填的（結果還是沒中QQ）
+					</p>
+					<div class="img">
+						<img src="images/B3.jpg" width="33%">
+						<img src="images/B4.jpg" width="33%">
+						<img src="images/B5.jpg" width="33%">
+					</div>
+					<p>
+						到了韓國Buffet後，我的重點就是這個！！！醬油蟹！！！
+						我一直跟朋友說我很想試試看醬油蟹，但怕去了醬油蟹的餐廳後才發現不敢吃了話就太可惜了，所以Jei的朋友就提議帶我來buffet試試看，這樣我就能什麼都吃一點，結果醬油蟹的口感實在是太特別了，鹹鹹甜甜的又帶一點腥味，但我會想要到專賣餐廳再試試看！
+					</p>
+					<img src="images/B6.jpg" width="100%">
+					<h6 class="food">馬鈴薯排骨湯</h6>
+					<p>
+						這是我本次來韓國第一名的食物！!馬鈴薯排骨湯真的是太好吃了，從一開始撒著滿滿的芝麻粉和山蘇葉，攪拌後的香味都融合在湯裡，這家的排骨也很軟嫩，真的是目前吃到最好吃的馬鈴薯排骨湯！
+					</p>
+					<div class="img">
+						<img src="images/B7.jpg" width="50%">
+						<img src="images/B8.jpg" width="50%">
+					</div>
+					<h6 class="food">春川炒雞</h6>
+					<p>
+						在台灣紅過一陣子的春川炒雞，終於有機會在韓國吃正版的了，滿滿的起司跟洋蔥、雞肉，和年糕炒在一起，我們大概花不到10分鐘就吃完這盤了，但重點就是吃完之後的炒飯！！用剩下的湯汁跟蛋，再加上海苔，真的超級好吃，比起春川炒雞本人，我更喜歡這個炒飯！
+					</p>
+					<div class="img">
+						<img src="images/B9.jpg" width="50%">
+						<img src="images/B10.jpg" width="50%">
+					</div>
+					<h6 class="food">炒碼麵、炸醬麵、糖醋肉</h6>
+					<p>
+						是我第二次來到韓國的中式餐館，我原本一直都是喜歡炸醬麵勝過炒碼麵，沒想到這家的招牌炒碼麵大大勝過炸醬麵，海鮮味的湯頭跟滿滿的料，再配上超好吃的糖醋肉！我吃完之後馬上跟朋友說好想隔天再來一次🤣 
+					</p>
+					<div class="img">
+						<img src="images/B11.jpg" width="33%">
+						<img src="images/B12.jpg" width="33%">
+						<img src="images/B13.jpg" width="33%">
+					</div>
+					<h6 class="food">起司辣炒年糕</h6>
+					<p>
+						每次看到照片都覺得這根本就是起司河！辣炒年糕配上滿滿的起司，我第一次吃這家的的時候是叫外賣，那時候已經覺得很好吃了，沒想到店裡剛做好的更好吃！我很喜歡旁邊炸物盤上的炸紫菜冬粉捲，尤其是沾了辣炒年糕的醬汁一起吃更好吃！還有飯後的冰淇淋，一個是巧克力口味，一個是香蕉口味，都很好吃！
+					</p>
+					<div class="img">
+						<img src="images/B14.jpg" width="50%">
+						<img src="images/B15.jpg" width="50%">
+					</div>
+					<p>
+						在大田的最後一天拿著朋友給的折價卷一起去吃了烤肉，在中途還加點了冷麵來解膩，冷麵湯喝起來也很特別，我第一次吃的時候完全沒想到是這種味道，而且麵雖然是細細的那種，卻超級有彈性，整體就是可以偶爾吃，但不會每天都想著冷麵的那種感覺哈哈哈哈。還有某一天午餐在家吃的人蔘雞湯～
+					</p>
+					<div class="img">
+						<img src="images/B16.jpg" width="50%">
+						<img src="images/B17.jpg" width="50%">
+					</div>
+					<h4 class="day">📍大邱</h4>
+					<p>
+						從大田坐了2小時巴士來到大邱之後就和Jei跟台灣朋友會合，這是我第二次來大邱，每次來都是來吃的哈哈哈，我自己覺得大邱跟台南有點像，沒有這麼都市化，但又以小吃、市場類聞名，在大邱吃的每一餐真的都很好吃！
+						<h6 class="food">辣炒章魚</h6>
+						這個辣炒章魚，裡面有年糕跟冬粉，他的醬汁雖然很辣，但真的很適合配飯，旁邊還有一堆的小菜！
+					</p>
+					<div class="img">
+						<img src="images/B18.jpg" width="50%">
+						<img src="images/B19.jpg" width="50%">
+					</div>
+					<h6 class="food">辣炒年糕、扁餃子、紫菜包飯</h6>
+					<p>
+						這家辣炒年糕除了他比別人大的年糕之外，驚人的是旁邊一疊疊的黃色扁餃子，一盤的粽喝得就像是這樣，有年糕、魚板、扁餃子，明明看起來沒什麼，但是把餃子跟年糕一起吃的時候，真的超好吃！！
+					</p>
+					<div class="img">
+						<img src="images/B20.jpg" width="50%">
+						<img src="images/B21.jpg" width="50%">
+					</div>
+					<img src="images/B22.jpg" width="100%">
+					<h6 class="food">烤腸</h6>
+					<p>
+						大家來大邱都會去「安吉郎一條街」吃大腸，但聽說大邱在地人其實都不會去那邊吃，所以這次來的這家就是當地人推薦的喔！通常去吃烤腸，老闆都會先剪好一段一段的再端上來，但這次一端上來的大腸是一整條需要自己剪的，加上一堆的小菜跟附的大醬湯，推推～
+					</p>
+					<div class="img">
+						<img src="images/B23.jpg" width="50%">
+						<img src="images/B24.jpg" width="50%">
+					</div>
+					<h6 class="food">刀削麵、糖餅</h6>
+					<p>
+						這天一早我們就來「西門市場」吃大邱有名的刀削麵，他的麵條都是當場在旁邊現做的，看起來感覺很普通的麵，但是吃下去很特別很好吃，有一種樸實單純的感覺哈哈哈，旁邊還有放辣椒、醃蘿蔔給客人加。還有以前吃過一次就忘不了的糖餅！這家糖餅超厚超大，連我韓國朋友都說沒看過這麼大的糖餅！
+					</p>
+					<div class="img">
+						<img src="images/B25.jpg" width="50%">
+						<img src="images/B26.jpg" width="50%">
+					</div>
+					<div class="img">
+						<img src="images/B27.jpg" width="50%">
+						<img src="images/B28.jpg" width="50%">
+					</div>
+				</div>
+			</div>
+			<div class="gohome text-center">
+				<a href="index.html">HOME</a>
+			</div>
+			<div class="ig">
+				<div class="account">
+					<img class="rounded-circle" src="images/mine.jpg" width="35%">
+					<div class="num">
+						<a href="https://www.instagram.com/s2307760/" target="_blank"><b>s2307760</b></a>
+					</div>
+					<p>張培莉 Peili🎈</p>
+				</div>
+				<div class="card-border">
+					<div class="card-group">
+						<div class="card">
+							<a href="https://www.instagram.com/p/B75b-SaByRglE0TtaySFqMPAYMIlamUC3OkA9A0/" target="_blank"><img src="images/igcover.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/B7MRMw1BgpcdOXYXzioagPE3wM9jgh35HMmzGs0/" target="_blank"><img src="images/igcover2.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/B3zXEKhg7990oOSdZP7193DivVvbVFMpLogbgE0/" target="_blank"><img src="images/igcover3.jpg" width="100%"></a>
+						</div>
+					</div>
+					<div class="card-group">
+						<div class="card">
+							<a href="https://www.instagram.com/p/BwGqATGnOnfLl4kyXV6sTVfdGVA1yOhN9nJAx00/" target="_blank"><img src="images/igcover4.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/Bv_JegqHfxpWz8nsMSaY3MzzflI3EE59BIwXkQ0/" target="_blank"><img src="images/igcover5.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/Bv_MoTCn1qk4VBDSHfxiSBbjdIdfhc9rJjnwhQ0/" target="_blank"><img src="images/igcover6.jpg" width="100%"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="up float-right">
+			<a href="#logo"><img src="images/up3.png" width="100%"></a>
+		</div>
+	</div>
+	<div class="footer text-center">
+		Copyright © 2020 Peili Chang
+	</div>
+	<script type="text/javascript" src="js/blog.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

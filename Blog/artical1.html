@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles-1.css">
+	<title>Peili's Diary</title>
+</head>
+<body>
+	<div class="header">
+		<nav class="navbar navbar-expand-md navbar-dark na-sm">
+			<div class="brand">
+				<a class="navbar-brand" href="index.html"><img src="images/home.png" width="100%"></a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expend="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse text-center" id="navbarContent">
+				<ul class="navbar-nav">
+					<div class="dropdown-divider"></div>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categories
+						</a>
+						<div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="artical3.html">這就是TAIWAN! (1)</a>
+							<a class="dropdown-item" href="artical1.html">追趕跑跳異世界 (1)</a>
+							<a class="dropdown-item" href="artical2.html">吃吃喝喝旅遊趣 (1)</a>
+						</div>
+					</li>
+					<li id="accordion" class="nav-item"> 
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link navbar-dark" onclick="contact()" id="show" data-toggle="collapse" href="#collapseone">Contact Me</a>
+							</div>
+							<div id="collapseone" class="collapse" data-parent="#accordion">
+								<div class="card-body rounded">
+									<span class="nav-contact">
+										<a class="nav-link" href="https://www.instagram.com/s2307760/?hl=en" target="_blank"><img src="images/smig.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="https://www.facebook.com/profile.php?id=100005858530525&ref=bookmarks" target="_blank"><img src="images/smfb.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="https://twitter.com/Peili67883522" target="_blank"><img src="images/smtw.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="mailto:s2307760@gmail.com"><img src="images/smmail.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="tel:=886930072759"><img src="images/smphone.png" width="100%"></a>
+									</span>	
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+		<nav class="navbar na-lg">
+			<ul class="navbar-nav nav-left">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html"><img src="images/home.png" width="23%">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html"><img src="images/user.png" width="23%">About</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/cate.png" width="22%">Category<span class="caret"></span></a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="artical3.html">這就是TAIWAN!</a>
+						<a class="dropdown-item" href="artical1.html">追趕跑跳異世界</a>
+						<a class="dropdown-item" href="artical2.html">吃吃喝喝旅遊趣</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="navbar-nav nav-right">
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://www.instagram.com/s2307760/?hl=en" target="_blank"><img src="images/ig.png" width="100%"></a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://www.facebook.com/profile.php?id=100005858530525&ref=bookmarks" target="_blank"><img src="images/fb.png" width="100%"></a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://twitter.com/Peili67883522" target="_blank"><img src="images/tw.png" width="100%"></a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="mailto:s2307760@gmail.com"><img src="images/mail.png" width="100%"></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="logo" id="logo">
+			<img src="images/logo2.png" width="100%">
+		</div>
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators"> 
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+				<li data-target="#demo" data-slide-to="3"></li>
+				<li data-target="#demo" data-slide-to="4"></li>
+				<li data-target="#demo" data-slide-to="5"></li>
+			</ul>
+
+			<div class="carousel-inner">
+    			<div class="carousel-item active">
+     				<img src="images/banner1.jpg">
+   				</div>
+   				<div class="carousel-item">
+    				<img src="images/banner.jpg">
+   				</div>
+   				<div class="carousel-item">
+      				<img src="images/banner2.jpg">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="images/banner3.jpg">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="images/banner4.jpg">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="images/banner5.jpg">
+    			</div>
+  			</div>
+
+  			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    			<span class="carousel-control-prev-icon"></span>
+  			</a>
+  			<a class="carousel-control-next" href="#demo" data-slide="next">
+    			<span class="carousel-control-next-icon"></span>
+  			</a>
+		</div>
+		<div class="left col-xl-3 col-lg-4 col-md-4">
+			<div class="card">
+				<div class="card-img-top">
+					<img src="images/infopic.jpg" width="100%">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">張培莉 Peili</h4>
+					<p class="card-text">HI~ I'm Peili~ 我喜歡出國旅遊，喜歡看美劇和拼拼圖！我希望能擁有知道大家在想什麼的超能力！
+					</p>
+					<input type="button" class="showcontact" id="showmore" onclick="showcontact()" value="＋聯絡我">
+					<div class="contact-info" id="contact-info" style='display:block'>
+						<hr>
+						<a href="tel:=886930072759" class="card-link phone"><img class="phonepic" src="images/phone3.png" width="13%"></a>
+						<input type="button" class="btn" onclick="popup()">
+						<img src='images/QR.jpg' id="line" class="QRpic" style='display:none' width="200px" hight="200px">
+					</div>
+				</div>
+			</div>
+			<div class="card newpost">
+				<div class="card-body">
+					<h5 class="card-title">New Update</h5>
+					<hr>
+					<div class="card-text">
+						<ul>
+							<li><span class="badge badge-pill badge-danger">New</span><a href="artical3.html">【台南】三天兩夜台南玩什麼！Gogoro租車、台南食記、文青小店。</a></li>
+							<li><span class="badge badge-pill badge-danger">New</span><a href="artical2.html">【韓國】大田X大邱，各式食物，馬鈴薯排骨湯、辣炒年糕，西門市場刀削麵和糖餅！</a></li>
+							<li><span class="badge badge-pill badge-danger">New</span><a href="artical1.html">【Los Angeles 】五天四夜之旅，迪士尼🎡、Paul Smith粉紅牆、Santa Monica🏖。</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card newpost">
+				<div class="card-body">
+					<h5 class="card-title">Categories</h5>
+					<hr>
+					<div class="card-text">
+						<ul class="category">
+							<li><a href="artical3.html"> 這就是TAIWAN! (1)</a></li>
+							<li><a href="artical1.html"> 追趕跑跳異世界 (1)</a></li>
+							<li><a href="artical2.html"> 吃吃喝喝旅遊趣 (1)</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr class="right-top">
+		<div class="right col-xl-9 col-lg-8 col-md-8 col-sm-12">
+			<div class="content">
+				<div class="date text-center">APR 20 2020</div>
+				<div class="title text-center">
+					<p>
+						【Los Angeles 】五天四夜之旅，迪士尼🎡、Paul Smith粉紅牆、Santa Monica🏖。
+					</p>
+					<img src="images/cover1-1.jpg" width="80%">
+				</div>
+				<div class="content-text">
+					<p>
+						去年三月的時候因為有一個禮拜的春假，和幾個朋友討論後決定去LA玩四天三夜，為了要訂便宜的機票，我們訂了早上7點的飛機，我前一天期待到快睡不著呢！
+
+					</p>
+					<h4 class="day">Day 1 ✈️</h4>
+					<p>
+						我們放完行李後的第一站先去市集逛逛吃點東西，一進去看到一片霓虹燈牆覺得很有fu~~ 馬上點了有名的Eggslut當午餐，是蠻好吃的，但沒有特別驚豔！之後因為天氣太熱，我們還馬上去買了冰淇淋吃呢，這家的甜筒是黑色的，超級好吃！但吃到最後覺得有點太甜了QQ
+					</p>
+					<div class="img">
+						<img src="images/A1.jpg" width="50%">
+						<img src="images/A2.jpg" width="50%">
+					</div>
+					<p>
+						下午到了著名的「The Last Bookstore」，是加州規模最大的書店，裡面感覺什麼書都有，裝潢也很特別，我們也在這邊拍了一些照片，好笑的事是我們在路上拍照的時候，突然被一個大叔亂入哈哈哈，我們還是看照片的時候才發現，快笑到不行🤣
+					</p>
+					<div class="img">
+						<img src="images/A3.jpg" width="50%">
+						<img src="images/A4.jpg" width="50%">
+					</div>
+					<div class="img">
+						<img src="images/A5.jpg" width="100%">
+					</div>
+					<p>
+						逛完書店後離晚餐還有一段時間，因為實在是太早起了，我們決定回民宿休息一下，大家都睡死哈哈哈，晚點的時候到Korea Town吃有名的「Sun Nong Dan」，雖然到那邊的時候已經過了晚餐時間，但我們還是候位了快１個小時，他的燉牛肉排館真得超級好吃，尤其是加上起司一起！
+					</p>
+					<div class="img">
+						<img class="A6" src="images/A6.jpg" width="50%">
+						<video width="50%" controls="">
+							<source src="images/A7.mp4" type="video/mp4">
+						</video>
+					</div>
+					<h4 class="day">Day 2 🎡</h4>
+					<p>
+						第二天是我們最期待的迪士尼！！！！我們從早上10點待到晚上10點，裡面真的是不管大人小孩都看起來玩得很開心耶，而且連門票都很可愛！（放在封面的就是門票喔～）
+						我們其實沒有玩很多遊樂設施，因為大部分時間都在拍照📷，因為不管哪裡都很漂亮
+					</p>
+					<div class="img">
+						<img src="images/A8.jpg" width="50%">
+						<img src="images/A9.jpg" width="50%">
+					</div>
+					<p>
+						看遊行的時候我真的狂跟每個角色揮手，雖然他們不一定會看到，但只要他們有揮回來就很開心！這是幫我朋友拍的小美人魚跟公主們～（照照照影）因為其他時候太興奮沒有拍到照哈哈哈哈
+					</p>
+					<div class="img">
+						<img src="images/A12.jpg" width="50%">
+						<video width="50%" controls="">
+							<source src="images/A13.mp4" type="video/mp4">
+						</video>
+					</div>
+					<p>
+						就連最後逛紀念品店也讓人想把整家店都買下來！我買了皮諾丘跟布魯托的枕頭還有其他東西，看這照片就知道每個人都買了多少哈哈哈哈
+					</p>
+					<div class="img">
+						<img src="images/A14.jpg" width="50%">
+						<img src="images/A15.jpg" width="50%">
+					</div>
+					<h4 class="day">Day 3 🕌</h4>
+					<p>
+						這天我竟然忘記帶手機！所以沒有很多照片QQ 這天的行程是到「The Grove」商圈去走走逛逛，所以我們就到附近的農夫市場去吃午餐，我選了一家有點東南亞風味的炒麵，意外地來蠻好吃的！
+					</p>
+					<div class="img">
+						<img src="images/A16.jpg" width="50%">
+						<img src="images/A18.jpg" width="50%">
+						<img src="images/A17.jpg" width="50%">
+						<img src="images/A19.jpg" width="50%">
+					</div>
+					<p>
+						之後去了「Paul Smith」的粉紅牆拍照，然後在到好萊塢大街，因為以前有來過，所以我沒有對名人的手印那些太驚奇，主要還是到紀念品店逛逛～
+					</p>
+					<div class="img">
+						<img src="images/A20.jpg" width="50%">
+						<img src="images/A21.jpg" width="50%">
+					</div>
+					<p>
+						我們趁著觀景台關門前趕到「Griffith Observatory」去看夜景
+						，看完回來後也差不多10點多了，我們就到韓國超市買了零食來配酒 ><
+					</p>
+					<div class="img">
+						<img src="images/A22.jpg" width="50%">
+						<img src="images/A23.jpg" width="50%">
+					</div>
+					<h4 class="day">Day 4 🏖</h4>
+					<p>
+						最後一天主要就是在「Santa Monica」海灘，但去海灘前還是要吃一下午餐，我點的是他們的招牌三明治，和抹茶珍珠奶茶（出自於台灣人的好奇心），沒想到真的蠻好喝的耶！
+					</p>
+					<div class="img">
+						<img src="images/A24.jpg" width="50%">
+						<img src="images/A25.jpg" width="50%">
+					</div>
+					<p>
+						這天的天氣超好，所以我們就邊散步邊前往海灘，Santa Monica附近的街景也很漂亮，讓人感覺很愜意，不知不覺就拍了很多照，到了海灘後，我們也跟著名的66地標牌拍照，照片後面是一群人在排隊等著拍照呢！
+					</p>
+					<div class="img">
+						<img src="images/A26.jpg" width="50%">
+						<img src="images/A27.jpg" width="50%">
+					</div>
+					<p>
+						看到海灘就很想要去玩水，但因為怕弄濕不方便，我們還是只有在岸邊拍拍照而已，最後因為太陽在下山了，我們也就趁天還沒暗時去吃晚餐，在去吃晚餐的路上隨便拍了一張照，但感覺隨便拍隨便好看～～
+					</p>
+					<div class="img">
+						<img src="images/A28.jpg" width="50%">
+						<img src="images/A29.jpg" width="50%">
+					</div>
+				</div>
+			</div>
+			<div class="gohome text-center">
+				<a href="index.html">HOME</a>
+			</div>
+			<div class="ig">
+				<div class="account">
+					<img class="rounded-circle" src="images/mine.jpg" width="35%">
+					<div class="num">
+						<a href="https://www.instagram.com/s2307760/" target="_blank"><b>s2307760</b></a>
+					</div>
+					<p>張培莉 Peili🎈</p>
+				</div>
+				<div class="card-border">
+					<div class="card-group">
+						<div class="card">
+							<a href="https://www.instagram.com/p/B75b-SaByRglE0TtaySFqMPAYMIlamUC3OkA9A0/" target="_blank"><img src="images/igcover.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/B7MRMw1BgpcdOXYXzioagPE3wM9jgh35HMmzGs0/" target="_blank"><img src="images/igcover2.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/B3zXEKhg7990oOSdZP7193DivVvbVFMpLogbgE0/" target="_blank"><img src="images/igcover3.jpg" width="100%"></a>
+						</div>
+					</div>
+					<div class="card-group">
+						<div class="card">
+							<a href="https://www.instagram.com/p/BwGqATGnOnfLl4kyXV6sTVfdGVA1yOhN9nJAx00/" target="_blank"><img src="images/igcover4.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/Bv_JegqHfxpWz8nsMSaY3MzzflI3EE59BIwXkQ0/" target="_blank"><img src="images/igcover5.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/Bv_MoTCn1qk4VBDSHfxiSBbjdIdfhc9rJjnwhQ0/" target="_blank"><img src="images/igcover6.jpg" width="100%"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="up float-right">
+			<a href="#logo"><img src="images/up3.png" width="100%"></a>
+		</div>
+	</div>
+	<div class="footer text-center">
+		Copyright © 2020 Peili Chang
+	</div>
+	<script type="text/javascript" src="js/blog.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

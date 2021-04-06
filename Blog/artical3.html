@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles-1.css">
+	<title>Peili's Diary</title>
+</head>
+<body>
+	<div class="header">
+		<nav class="navbar navbar-expand-md navbar-dark na-sm">
+			<div class="brand">
+				<a class="navbar-brand" href="index.html"><img src="images/home.png" width="100%"></a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expend="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse text-center" id="navbarContent">
+				<ul class="navbar-nav">
+					<div class="dropdown-divider"></div>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categories
+						</a>
+						<div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="artical3.html">這就是TAIWAN! (1)</a>
+							<a class="dropdown-item" href="artical1.html">追趕跑跳異世界 (1)</a>
+							<a class="dropdown-item" href="artical2.html">吃吃喝喝旅遊趣 (1)</a>
+						</div>
+					</li>
+					<li id="accordion" class="nav-item"> 
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link navbar-dark" onclick="contact()" id="show" data-toggle="collapse" href="#collapseone">Contact Me</a>
+							</div>
+							<div id="collapseone" class="collapse" data-parent="#accordion">
+								<div class="card-body rounded">
+									<span class="nav-contact">
+										<a class="nav-link" href="https://www.instagram.com/s2307760/?hl=en" target="_blank"><img src="images/smig.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="https://www.facebook.com/profile.php?id=100005858530525&ref=bookmarks" target="_blank"><img src="images/smfb.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="https://twitter.com/Peili67883522" target="_blank"><img src="images/smtw.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="mailto:s2307760@gmail.com"><img src="images/smmail.png" width="100%"></a>
+									</span>
+									<span class="nav-contact">
+										<a class="nav-link" href="tel:=886930072759"><img src="images/smphone.png" width="100%"></a>
+									</span>	
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+		<nav class="navbar na-lg">
+			<ul class="navbar-nav nav-left">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html"><img src="images/home.png" width="23%">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html"><img src="images/user.png" width="23%">About</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/cate.png" width="22%">Category<span class="caret"></span></a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="artical3.html">這就是TAIWAN!</a>
+						<a class="dropdown-item" href="artical1.html">追趕跑跳異世界</a>
+						<a class="dropdown-item" href="artical2.html">吃吃喝喝旅遊趣</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="navbar-nav nav-right">
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://www.instagram.com/s2307760/?hl=en" target="_blank"><img src="images/ig.png" width="100%"></a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://www.facebook.com/profile.php?id=100005858530525&ref=bookmarks" target="_blank"><img src="images/fb.png" width="100%"></a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://twitter.com/Peili67883522" target="_blank"><img src="images/tw.png" width="100%"></a>
+				</li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="mailto:s2307760@gmail.com"><img src="images/mail.png" width="100%"></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container con-3">
+		<div class="logo" id="logo">
+			<img src="images/logo2.png" width="100%">
+		</div>
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators"> 
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+				<li data-target="#demo" data-slide-to="3"></li>
+				<li data-target="#demo" data-slide-to="4"></li>
+				<li data-target="#demo" data-slide-to="5"></li>
+			</ul>
+
+			<div class="carousel-inner">
+    			<div class="carousel-item active">
+     				<img src="images/banner1.jpg">
+   				</div>
+   				<div class="carousel-item">
+    				<img src="images/banner.jpg">
+   				</div>
+   				<div class="carousel-item">
+      				<img src="images/banner2.jpg">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="images/banner3.jpg">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="images/banner4.jpg">
+    			</div>
+    			<div class="carousel-item">
+      				<img src="images/banner5.jpg">
+    			</div>
+  			</div>
+
+  			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    			<span class="carousel-control-prev-icon"></span>
+  			</a>
+  			<a class="carousel-control-next" href="#demo" data-slide="next">
+    			<span class="carousel-control-next-icon"></span>
+  			</a>
+		</div>
+		<div class="left col-xl-3 col-lg-4 col-md-4">
+			<div class="card">
+				<div class="card-img-top">
+					<img src="images/infopic.jpg" width="100%">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">張培莉 Peili</h4>
+					<p class="card-text">HI~ I'm Peili~ 我喜歡出國旅遊，喜歡看美劇和拼拼圖！我希望能擁有知道大家在想什麼的超能力！
+					</p>
+					<input type="button" class="showcontact" id="showmore" onclick="showcontact()" value="＋聯絡我">
+					<div class="contact-info" id="contact-info" style='display:block'>
+						<hr>
+						<a href="tel:=886930072759" class="card-link phone"><img class="phonepic" src="images/phone3.png" width="13%"></a>
+						<input type="button" class="btn" onclick="popup()">
+						<img src='images/QR.jpg' id="line" class="QRpic" style='display:none' width="200px" hight="200px">
+					</div>
+				</div>
+			</div>
+			<div class="card newpost">
+				<div class="card-body">
+					<h5 class="card-title">New Update</h5>
+					<hr>
+					<div class="card-text">
+						<ul>
+							<li><span class="badge badge-pill badge-danger">New</span><a href="artical3.html">【台南】三天兩夜台南玩什麼！Gogoro租車、台南食記、文青小店。</a></li>
+							<li><span class="badge badge-pill badge-danger">New</span><a href="artical2.html">【韓國】大田X大邱，各式食物，馬鈴薯排骨湯、辣炒年糕，西門市場刀削麵和糖餅！</a></li>
+							<li><span class="badge badge-pill badge-danger">New</span><a href="artical1.html">【Los Angeles 】五天四夜之旅，迪士尼🎡、Paul Smith粉紅牆、Santa Monica🏖。</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card newpost">
+				<div class="card-body">
+					<h5 class="card-title">Categories</h5>
+					<hr>
+					<div class="card-text">
+						<ul class="category">
+							<li><a href="artical3.html"> 這就是TAIWAN! (1)</a></li>
+							<li><a href="artical1.html"> 追趕跑跳異世界 (1)</a></li>
+							<li><a href="artical2.html"> 吃吃喝喝旅遊趣 (1)</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr class="right-top">
+		<div class="right col-xl-9 col-lg-8 col-md-8 col-sm-12">
+			<div class="content">
+				<div class="date text-center">MAY 10 2020</div>
+				<div class="title text-center">
+					<p>
+						【台南】三天兩夜台南玩什麼！Gogoro租車、台南食記、文青小店。
+					</p>
+					<img src="images/cover3-1.jpg" width="80%">
+				</div>
+				<div class="content-text">
+					<p>
+						這個寒假其實去了台南兩次，一次是跟高中朋友，一次是跟大學同學！而我們四個人的組合也是第二次來台南了，第一次的時候因為都還不會騎車，台南的大眾運輸又很不發達，我們就只能把各個景點都排近一點，然後再搭計程車去，真的很麻煩(｡ ́︿ ̀｡)
+						但是這次我們決定騎車之後，整個方便很多！而且三天兩夜的行程，每個人分下來的車錢也才$625，這樣比搭計程車划算多了，也不用受到距離限制，想去哪就去哪，所以來台南還是比較建議自己騎車或開車啦～
+					</p>
+					<h4 class="day">Day 1 🛵</h4>
+					<p>
+						我們這次來回都是搭自強，到了台南的第一餐是我們當時上網找的一家煎餃店「角鑄」，雖然餃子有點小，但口味那些都還不錯，而且點套餐還有蛋捲跟炒麵可以搭配！
+					</p>
+					<div class="img">
+						<img src="images/C1.jpg" width="50%">
+						<img src="images/C2.jpg" width="50%">
+					</div>
+					<p>
+						這個景點大概是我們三天拍最多照的一個地方了，因為之後都太懶得拍照了哈哈哈哈，那時候因為疫情已經開始了，所以大家都戴著口罩，不過還是會趁著沒人的時候脫下來啦 ><
+					</p>
+					<div class="img gif">
+						<img src="images/C3.jpg" width="50%">
+						<img src="images/C4.jpg" width="50%">
+						<img src="images/C5.jpg" width="50%">
+						<img src="images/EFF6C320-F941-4069-A199-5A50DFB91127.jpeg" width="50%">
+					</div>
+					<p>
+						拍完照在附近晃晃逛逛之後也差不多5點多了，因為晚餐的餐廳不在市區，所以就決定早點出發，大概騎了半小時到了「阿裕牛肉火鍋」，沒想到生意太好，我們還是等了一個多小時，真的等到超餓的！我一吃就整個愛上，跟期待中的一樣，湯好喝，肉也新鮮，結果他們竟然都說太腥不敢吃(;´༎ຶД༎ຶ`)，只好我跟另一個男生吃肉，他們吃火鍋料吃的很開心哈哈哈哈
+					</p>
+					<img src="images/C6.jpg" width="100%">
+					<h4 class="day">Day 2 🛵</h4>
+					<p>
+						第二天早上起床就先來吃「葉家小卷米粉」，他的米粉看起來很像米苔目，一早吃這種熱熱很鮮甜的湯就覺得很開心，吃完之後我們決定在午餐前去「烏邦圖UBUNTU書店」逛逛，雖然裡面蠻漂亮的，還有陽台讓內用的客人能邊看書邊喝咖啡，但我實在是對書沒什麼興趣🤭
+					</p>
+					<div class="img">
+						<img src="images/C7.jpg" width="50%">
+						<img src="images/C8.jpg" width="50%">
+					</div>
+					<p>
+						午餐時間我們到國華街上邊走邊吃，但因為離吃完早餐才過兩個小時，我們都沒有很餓，我們買了「白糖粿」、「富盛號挖粿」跟「阿松掛包」，離開國華街的路上看到了燈籠的影子超可愛的！
+					</p>
+					<div class="img">
+						<img src="images/C9.jpg" width="50%">
+						<img src="images/C10.jpg" width="50%">
+						<img src="images/C11.jpg" width="50%">
+						<video width="50%" controls="">
+							<source src="images/C12.mp4" type="video/mp4">
+						</video>
+					</div>
+					<p>
+						馬上又到了「Merci kitchen」，這是一家咖啡廳，有名的是他這滿滿的司康！
+					</p>
+					<div class="img">
+						<img src="images/C12.jpg" width="50%">
+						<img src="images/C13.jpg" width="50%">
+					</div>
+					<p>
+						之後趁著太陽下山前到漁光島看夕陽，不管來幾次都還是覺得漁光島很漂亮，而且海水看起來也蠻乾淨的，真的是來不膩的一個地方耶！晚餐就到保安宮附近吃～
+					</p>
+					<div class="img">
+						<img src="images/C14.jpg" width="50%">
+						<img src="images/C15.jpg" width="50%">
+					</div>
+					<p>
+						這天晚上會民宿休息一下之後，一起去「LOLA蘿拉冷飲店」，這是一間有點復古風的酒吧，裡面的佈置和風格真的很漂亮！
+					</p>
+					<div class="img">
+						<img src="images/C16.jpg" width="50%">
+						<img src="images/C17.jpg" width="50%">
+					</div>
+					<h4 class="day">Day 3 🛵</h4>
+					<p>
+						因為第二天感覺奔波了一天，所以最後一天我們睡到比較晚，大概11點左右才出門，一出門就去吃台南必吃的「丹丹漢堡」，雖然我沒有很喜歡他的焿，但他的炸雞真的很嫩很好吃！
+					</p>
+					<img src="images/C18.jpg" width="100%">
+					<p>	
+						在台南的最後一站還是一家網美咖啡廳，後來回民宿拿行李的途中看到一家可愛的小店「Beaucoup 布咕」，裡面的東西真的是又貴又可愛～
+					</p>
+					<div class="img">
+						<img src="images/C19.jpg" width="50%">
+						<img src="images/C20.jpg" width="50%">
+					</div>
+					<p class="text-center">果然來台南還是三天兩夜比較悠閒呀～</p>
+				</div>
+			</div>
+			<div class="gohome text-center">
+				<a href="index.html">HOME</a>
+			</div>
+			<div class="ig">
+				<div class="account">
+					<img class="rounded-circle" src="images/mine.jpg" width="35%">
+					<div class="num">
+						<a href="https://www.instagram.com/s2307760/" target="_blank"><b>s2307760</b></a>
+					</div>
+					<p>張培莉 Peili🎈</p>
+				</div>
+				<div class="card-border">
+					<div class="card-group">
+						<div class="card">
+							<a href="https://www.instagram.com/p/B75b-SaByRglE0TtaySFqMPAYMIlamUC3OkA9A0/" target="_blank"><img src="images/igcover.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/B7MRMw1BgpcdOXYXzioagPE3wM9jgh35HMmzGs0/" target="_blank"><img src="images/igcover2.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/B3zXEKhg7990oOSdZP7193DivVvbVFMpLogbgE0/" target="_blank"><img src="images/igcover3.jpg" width="100%"></a>
+						</div>
+					</div>
+					<div class="card-group">
+						<div class="card">
+							<a href="https://www.instagram.com/p/BwGqATGnOnfLl4kyXV6sTVfdGVA1yOhN9nJAx00/" target="_blank"><img src="images/igcover4.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/Bv_JegqHfxpWz8nsMSaY3MzzflI3EE59BIwXkQ0/" target="_blank"><img src="images/igcover5.jpg" width="100%"></a>
+						</div>
+						<div class="card">
+							<a href="https://www.instagram.com/p/Bv_MoTCn1qk4VBDSHfxiSBbjdIdfhc9rJjnwhQ0/" target="_blank"><img src="images/igcover6.jpg" width="100%"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="up float-right">
+			<a href="#logo"><img src="images/up3.png" width="100%"></a>
+		</div>
+	</div>
+	<div class="footer text-center">
+		Copyright © 2020 Peili Chang
+	</div>
+	<script type="text/javascript" src="js/blog.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
