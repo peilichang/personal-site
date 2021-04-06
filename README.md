@@ -10,3 +10,6 @@
 為大一下的重點作品之一，隨著刻網頁的技術較成熟後，加入RWD響應式網頁設計，讓Personal Blog能在各個裝置上顯示！
 > - [Peili's Diary](https://07170142.s3.amazonaws.com/Blog/index.html)
 > - [Code](https://github.com/peilichang/personal-site/tree/main/Blog)
+
+### Google Analystic Certification
+![avatar](resume/images/GA.jpg)
