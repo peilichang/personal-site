@@ -11,5 +11,5 @@
 > - [Peili's Diary](https://07170142.s3.amazonaws.com/Blog/index.html)
 > - [Code](https://github.com/peilichang/personal-site/tree/main/Blog)
 
-### Google Analystic Certification
+### Google Analytics Certification
 ![avatar](resume/images/GA.jpg)
